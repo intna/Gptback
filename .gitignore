@@ -1,0 +1,66 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Logs
+logs/
+*.log
+*.log.*
+*.access
+*.access.*
+*.error
+*.error.*
+
+# Environment
+.venv/
+env/
+venv/
+pip-selfcheck.json
+*.egg-info/
+
+# Distribution / packaging
+dist/
+build/
+*.egg
+*.egg-info/
+*.tar.gz
+*.whl
+
+# IDEs and editors
+.idea/
+.vscode/
+*.swp
+*~
+
+# Database
+db.sqlite3
+db.sqlite3-journal
+
+# Miscellaneous
+*.pyo
+*.rej
+*.bak
+*.swp
+*.bak
+*.cache
+*.egg-info/
+*.egg
+*.pdf
+*.jar
+
+# Unit test / coverage reports
+.coverage
+htmlcov/
+coverage/
+.tox/
+
+# Flask assets
+.flask-assets-cache/
+assets.json
+
+# Pytest
+pytest_cache/
+
+# Flask-Script
+instance/
