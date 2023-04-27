@@ -11,11 +11,11 @@ app = Flask("gptback")
 CORS(app)
 
 #mongoDB全局配置
-client = MongoClient('mongodb://cris:Zhang1027.@43.156.132.105:27017/')
+client = MongoClient('')
 db = client['wechat']
 collection = db['chatInfo']
 #API KEY
-openai.api_key = "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"
+openai.api_key = ""
 
 #请求路由
 @app.route("/chat",methods = ['POST'])
